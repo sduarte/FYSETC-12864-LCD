@@ -29,19 +29,21 @@ Uncomment:
         #define MINIPANEL
 
 Keep This commented (conflict with FYSETC documentation):
-//#define NEOPIXEL_LED
+
+        //#define NEOPIXEL_LED
 
 CHANGES IN Ramps.h - Use the chages on FYSECT Wiki
 
 CHANGES IN pins_TRIGORILLA_14.h:
 
-Find: #elif defined(MULTIPANEL)
+Find: 
+
+        #elif defined(MULTIPANEL)
 
 below #define SD_DETECT_PIN 49 (mine is line 216) insert:
 
         #elif defined(MINIPANEL)
         // Pins for DOGM SPI LCD Support
-        
         #define DOGLCD_A0           16
         #define DOGLCD_CS           17
         #define LCD_BACKLIGHT_PIN   27 
