@@ -57,5 +57,7 @@ below #define SD_DETECT_PIN 49 (mine is line 216) insert:
         #define SD_DETECT_PIN       49
         #define KILL_PIN            -1
         
+ 
  CHANGES IN Configuration_adv.h - Use the chages on FYSECT Wiki
+ 
  CHANGES IN ultralcd_impl_DOGM.h - Use the chages on FYSECT Wiki
